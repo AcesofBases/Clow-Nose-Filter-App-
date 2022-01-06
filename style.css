@@ -1,0 +1,43 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+background-color: red;
+}
+canvas{
+    border-width: 5px;
+    animation-name:color2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    from{
+        box-shadow: -1px -1px 38px red;
+        
+    }
+    to{
+box-shadow:1px 1px 38px blue;
+    }
+}
+@keyframes color2{
+0%{
+    border-color: deeppink;
+    /*transform: scale(1);*/
+    box-shadow: -1px -1px 38px red;
+    border-style: solid;
+
+}
+50%{
+   
+    border-color:rgb(27, 207, 27);
+    /*transform: scale(1.5);*/
+    box-shadow: 1px 1px 38px blue;
+     border-style: groove;
+}
+100%{
+    border-color: deeppink;
+    /*transform: scale(1);*/
+    box-shadow: -1px -1px 38px red;
+    border-style: solid;
+}
+}
